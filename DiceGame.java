@@ -1,6 +1,5 @@
 /*
- * This program calculates how much time it would take to cook a sub, soup or
- * pizza in quantities of 1-3
+ * This program generates a random number and asks the user to guess it.
  *
  * @author  Ryan Chung
  * @version 1.0
@@ -13,7 +12,7 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 /**
-* This class calculates the cooking time of a subset of food items.
+* This class generates a random number and asks the user to guess it.
 */
 final class DiceGame {
 
