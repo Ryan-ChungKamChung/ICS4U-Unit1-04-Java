@@ -50,7 +50,7 @@ final class DiceGame {
     * @return This function returns the random number.
     *
     */
-    private static int randomNumber(int lowerBound, int higherBound) {
+    private static int randomNumber(final int lowerBound, final int higherBound) {
         return new Random().nextInt(higherBound) + lowerBound;
     }
 
@@ -66,7 +66,7 @@ final class DiceGame {
     *     low.
     *
     */
-    private static String higherOrLower(int guess, int randomNumber) {
+    private static String higherOrLower(final int guess, final int randomNumber) {
         final String highOrLow;
 
         if (guess > randomNumber) {
